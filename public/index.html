@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Polygon Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Chat Container -->
+    <div class="chat-container">
+
+        <div class="header">
+
+            <div class="logo">
+
+                <div class="logo-dot"></div>
+
+                <div>
+                    <h2>Gemini Assistant</h2>
+                    <span>AI Powered</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="message bot">
+                👋 Hello! How can I help you today?
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Message Gemini..."
+                autocomplete="off"
+            >
+
+            <button id="sendBtn">
+                ➜
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
